@@ -1,0 +1,46 @@
+{
+  "version": "0.1.3",
+  "date": "2026-11-11",
+  "appId": "com.milkygreen.pet",
+  "electronVersion": "44.4.3",
+  "artifacts": [
+    {
+      "name": "MilkyGreenPet-0.1.3-macos-arm64.zip",
+      "platform": "macOS 13+",
+      "arch": "arm64",
+      "bytes": 247717948,
+      "sha256": "ee0a9359221cc6f74d04b4d4a5e949104b2c7274a554d558c3f69d8f625bc7f9"
+    },
+    {
+      "name": "MilkyGreenPet-0.1.3-windows-x64-portable.exe",
+      "platform": "Windows 10 / 11",
+      "arch": "x64",
+      "bytes": 191966746,
+      "sha256": "eaeda748ef66dfe7945baec5ef9565da2927869dd6ab3e2ca8d5a1aa141c12a4"
+    },
+    {
+      "name": "MilkyGreenPet-0.1.3-windows-x64.zip",
+      "platform": "Windows 10 / 11",
+      "arch": "x64",
+      "bytes": 272286007,
+      "sha256": "8c1c588ce8be021acb9e7baec3ab6253068869cf13fd3678c97b3148d6fb5f1e"
+    }
+  ],
+  "macos": {
+    "asarSHA256": "8319c0e79cbb8b6fb939cc3d3bde202754a23e8d87f0a46f51a169038a7b7475",
+    "minimumSystemVersion": "13.0",
+    "signing": "本机证书签名，未经 Apple 公证"
+  },
+  "windows": {
+    "asarSHA256": "d1f02a5ed8dd460c8993ecde517bab7be10bda3c0d35d3089b26b954ac31c0c0",
+    "electronArchiveSHA256": "790a355b684d5c7cc8dc3cdd8c4cca7c4b2d054685427c7554a956879a82e70b",
+    "electronBuilder": "26.15.3",
+    "nsisToolset": "1.2.1",
+    "signing": "未签名"
+  },
+  "verification": {
+    "macosRuntimeRegression": true,
+    "windowsPackageChecks": true,
+    "windowsRuntime": false
+  }
+}
